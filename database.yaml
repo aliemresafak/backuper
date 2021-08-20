@@ -1,0 +1,6 @@
+database:
+  db_one:
+    - table_one
+    - table_two
+  db_two:
+    - table_one
