@@ -4,6 +4,7 @@ from dotenv import find_dotenv, dotenv_values
 env = dict(dotenv_values(find_dotenv()))
 
 BACKUP_PATH = Path(".") / env["BACKUP_FOLDER_NAME"]
+DATABASE_CONFIG_PATH = Path(".") / env["DATABASE_CONFIG_FILE_NAME"]
 CREDENTIALS_PATH = Path(".") / env["CREDENTIALS_FILE_NAME"]
 
 START_DATETIME_FORMAT = "%Y-%m-%d 00:00:00"
